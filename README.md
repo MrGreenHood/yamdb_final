@@ -1,3 +1,5 @@
+![example workflow](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow/badge.svg)
+
 # Проект YaMDb
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title).
