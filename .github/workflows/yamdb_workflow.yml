@@ -21,11 +21,6 @@ jobs:
 
     - name: Test with flake8 and django tests
       run: |
-        touch .env
-        echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
-        echo ALLOWED_HOSTS=${{ secrets.ALLOWED_HOSTS }} >> .env
-        echo EMAIL=${{ secrets.EMAIL }} >> .env
-        echo PASSWORD=${{ secrets.PASSWORD }} >> .env
         python -m flake8
         pytest
 
