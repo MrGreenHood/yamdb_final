@@ -1,4 +1,4 @@
-[![Yamdb-app workflow](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=workflow_run)](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![Yamdb-app workflow](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # Проект YaMDb
 
