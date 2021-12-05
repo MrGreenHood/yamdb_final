@@ -1,4 +1,4 @@
-![workflow](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Yamdb-app workflow](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/MrGreenHood/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # Проект YaMDb
 
@@ -13,7 +13,7 @@
 В каждой категории есть произведения: книги, фильмы или музыка. Например, в категории «Книги» могут быть произведения «Винни Пух и все-все-все» и «Марсианские хроники», а в категории «Музыка» — песня «Давеча» группы «Насекомые» и вторая сюита Баха. Произведению может быть присвоен жанр из списка предустановленных (например, «Сказка», «Рок» или «Артхаус»). Новые жанры может создавать только администратор. Благодарные или возмущённые читатели оставляют к произведениям текстовые отзывы (Review) и выставляют произведению рейтинг (оценку в диапазоне от одного до десяти). Из множества оценок автоматически высчитывается средняя оценка произведения.
 
 Документация доступна по ссылке:
-- http://localhost/redoc/
+- http://51.250.12.251/redoc/
 
 ### Ресурсы API YaMDb
 
@@ -68,7 +68,7 @@ _Cуперюзер(superuser)_ — те же права, что и у Админ
 ### Как установить: 
 
 Склонируйте репозиторий:
--  ```git clone https://github.com/MrGreenHood/infra_sp2.git```
+-  ```git clone https://github.com/MrGreenHood/yamdb_final.git```
 
 Соберите контейнеры и запустите их:
 - ```docker-compose up -d --build```
@@ -107,4 +107,7 @@ _Cуперюзер(superuser)_ — те же права, что и у Админ
 ### Авторы
 Иван
 
-
+### Ссылка на сайт
+- http://51.250.12.251/
+### Ссылка на админку
+- http://51.250.12.251/admin/
